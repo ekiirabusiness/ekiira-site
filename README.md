@@ -11,7 +11,7 @@ npm run serve    # http://localhost:4173
 - `src/pages/` page content (home, mother pages, product sites). `src/lib/layout.mjs` holds the layout, SEO tags, JSON-LD and shared components.
 - `src/css/main.css` is the design system (tokens at the top). `src/static/brand/` has the logo and product marks.
 - `src/static/products/pinner/` is the existing Pinner site, published at `/pinner/` and left on its own canonical URL. `/products/pinner/` is the EKIIRA overview page.
-- The build creates fingerprinted CSS/JS, 1200x630 OG images per page, `sitemap.xml`, `robots.txt`, `site.webmanifest`, icons and a `_headers` file (Netlify/Cloudflare Pages).
+- The build creates fingerprinted CSS/JS, 1200x630 OG images per page, `sitemap.xml`, `robots.txt`, icons and a `_headers` file (Netlify/Cloudflare Pages).
 - Set the real domain with `SITE_URL=https://example.com npm run build`. Default is `https://ekiira.com`.
 - Placeholders to replace in `src/lib/layout.mjs`: `[CONTACT_EMAIL_PLACEHOLDER]`, `[REGISTERED_OFFICE_ADDRESS_PLACEHOLDER]`.
 - Legal pages are drafts and need legal review. No prices are published until confirmed.

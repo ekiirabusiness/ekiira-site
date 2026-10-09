@@ -53,7 +53,6 @@ const hdr = Buffer.alloc(22);
 hdr.writeUInt16LE(0, 0); hdr.writeUInt16LE(1, 2); hdr.writeUInt16LE(1, 4);
 hdr[6] = 48; hdr[7] = 48; hdr.writeUInt16LE(1, 12); hdr.writeUInt16LE(32, 14); hdr.writeUInt32LE(ico.length, 14 + 4); hdr.writeUInt32LE(22, 18);
 fs.writeFileSync(out('favicon.ico'), Buffer.concat([hdr, ico]));
-fs.writeFileSync(out('site.webmanifest'), JSON.stringify({ name: 'EKIIRA', short_name: 'EKIIRA', start_url: '/', display: 'browser', background_color: '#08090a', theme_color: '#08090a', icons: [{ src: '/img/icon-192.png', sizes: '192x192', type: 'image/png' }, { src: '/img/logo-512.png', sizes: '512x512', type: 'image/png' }] }));
 
 // pages
 const mods = await Promise.all(['home', 'mother', 'products'].map((m) => import(`./src/pages/${m}.mjs`)));

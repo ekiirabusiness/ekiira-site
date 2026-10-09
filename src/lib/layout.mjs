@@ -98,7 +98,7 @@ export function layout(page, assets) {
 <link rel="canonical" href="${url}">
 ${page.noindex ? '<meta name="robots" content="noindex,follow">' : '<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">'}
 <meta name="theme-color" content="#08090a">
-<link rel="icon" href="/favicon.ico" sizes="48x48"><link rel="icon" type="image/svg+xml" href="/brand/ekiira-mark.svg"><link rel="apple-touch-icon" href="/img/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest">
+<link rel="icon" href="/favicon.ico" sizes="48x48"><link rel="icon" type="image/svg+xml" href="/brand/ekiira-mark.svg"><link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
 <meta property="og:site_name" content="EKIIRA"><meta property="og:type" content="website"><meta property="og:locale" content="en"><meta property="og:title" content="${esc(page.ogTitle || title)}"><meta property="og:description" content="${esc(page.desc)}"><meta property="og:url" content="${url}"><meta property="og:image" content="${og}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="${esc(page.ogAlt || page.title)}">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(page.ogTitle || title)}"><meta name="twitter:description" content="${esc(page.desc)}"><meta name="twitter:image" content="${og}">
 <link rel="preload" href="/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>

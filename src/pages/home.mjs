@@ -1,7 +1,7 @@
 import { SITE, PRODUCTS, icon, hero, btn, sec, head, cards, productCard, row, ticks, cta, dev, table, faqHtml } from '../lib/layout.mjs';
 
 const homeFaqs = [
-  ['What is EKIIRA?', 'EKIIRA LLP is an independent software studio in Kolkata, India. We build Pinner, FieldScope Pro and ScreenplayX: local-first tools for photographers and filmmakers.'],
+  ['What is EKIIRA?', 'EKIIRA is a brand and independent software studio (EKIIRA LLP) in Kolkata, India, not an app itself. We build Pinner, FieldScope Pro and ScreenplayX: local-first tools for photographers and filmmakers.'],
   ['Do I need an EKIIRA account or a subscription?', 'No. Our tools are sold individually and designed to work without an account. Each product has its own licence terms, shown on its pricing page. We do not sell a forced bundle.'],
   ['Where is my data stored?', 'On your own devices. Our apps run on your hardware, and we do not collect telemetry or use your work to train AI models. Any optional sync or streaming goes to destinations you choose.'],
   ['Who handles payment and licensing?', 'Secure checkout and global licensing are handled by Dodo Payments, who act as Merchant of Record.'],
@@ -22,11 +22,11 @@ export const pages = [
         note: 'Local-first · No forced bundles · No telemetry',
         extra: `<div class="stage">${dev('/img/pinner/pinner-library.webp', 'laptop', 'Pinner Studio library view on a desktop display', false)}${dev('/img/fieldscope/06-waveform-scope.webp', 'tablet', 'FieldScope Pro showing a waveform scope on a tablet')}${dev('/img/fieldscope/09-phone-portrait-scopes.webp', 'phone', 'FieldScope Pro scopes in portrait on a phone')}</div>`,
       }),
-      sec(head('The ecosystem', 'One studio. Three focused tools.', 'Each EKIIRA app stands on its own. Buy what you need, skip what you do not.') +
+      sec(head('The ecosystem', 'One studio. Three focused tools.', 'EKIIRA is the studio and brand; each product stands on its own. Buy what you need, skip what you do not.') +
         `<div class="grid c3">${PRODUCTS.map((p) => productCard(p)).join('')}</div>`, '', 'products'),
       sec(head('Principles', 'Built for the people behind the image.', '') +
         cards([
-          { icon: 'lock', spec: '01 / Local-first', title: 'Your files stay yours', text: 'Libraries, scripts and footage live on your devices. Nothing is uploaded to an EKIIRA server to make the app work.' },
+          { icon: 'lock', spec: '01 / Local-first', title: 'Your files stay yours', text: 'Libraries, scripts and footage live on your devices. Nothing is uploaded to an EKIIRA server to make our software work.' },
           { icon: 'tag', spec: '02 / Fair pricing', title: 'Pay for what you use', text: 'Individual licences, free tiers where it makes sense, lifetime options and no mandatory subscription.' },
           { icon: 'cpu', spec: '03 / Hardware honesty', title: 'Runs on what you own', text: 'Phones, tablets and ordinary PCs. No dongles, no proprietary capture boxes, no inflated requirements.' },
           { icon: 'hand', spec: '04 / Indie craft', title: 'Made by people who shoot', text: 'A small team of photographers, filmmakers and developers solving problems we meet on set.' },
