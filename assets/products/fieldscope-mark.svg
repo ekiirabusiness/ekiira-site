@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
-  <title id="title">FieldScope Pro mark</title>
-  <rect x="2" y="2" width="60" height="60" rx="18" fill="#16191a" stroke="#42494a" stroke-width="2"/>
-  <path d="M15 25v-8h8M41 17h8v8M49 39v8h-8M23 47h-8v-8" fill="none" stroke="#d6ff72" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-  <path d="M18 37c4-13 8 8 12-5s8 13 16-4" fill="none" stroke="#d6ff72" stroke-linecap="round" stroke-width="3"/>
-</svg>
