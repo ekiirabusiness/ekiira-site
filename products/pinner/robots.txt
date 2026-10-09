@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ekiirabusiness.github.io/pinner/sitemap.xml

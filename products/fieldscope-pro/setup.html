@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#0b0c0d">
+  <meta name="description" content="Set up FieldScope Pro with a UVC HDMI capture device, USB host/OTG and Android hardware. Read the capture compatibility notes and known limitations.">
+  <title>Setup and compatibility | FieldScope Pro</title>
+  <link rel="icon" type="image/svg+xml" href="../../assets/products/fieldscope-mark.svg"><link rel="stylesheet" href="../assets/css/product-site.css"><script src="../assets/js/product-site.js" defer></script>
+</head>
+<body class="fieldscope">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><div class="site-wrap site-header-inner">
+    <a class="app-brand" href="index.html"><img src="../../assets/products/fieldscope-mark.svg" alt=""><span class="app-brand-name"><strong>FieldScope Pro</strong><small>MONITOR · CAMERA · ANDROID</small></span></a><button class="nav-toggle" type="button" aria-label="Open site navigation" aria-controls="site-nav" aria-expanded="false"><span></span></button>
+    <nav class="app-nav" id="site-nav" aria-label="FieldScope Pro navigation"><a href="index.html">Overview</a><a href="features.html">Monitor tools</a><a href="camera.html">Phone camera</a><a href="setup.html" aria-current="page">Setup</a><a href="pricing.html">Free vs Pro</a><a href="faq.html">FAQ</a><a href="privacy.html">Privacy</a><a class="nav-ek" href="../../index.html">EKIIRA ↗</a></nav>
+  </div></header>
+  <main id="main">
+    <section class="app-hero"><div class="site-wrap app-hero-grid">
+      <div><p class="eyebrow">SETUP / COMPATIBILITY</p><h1>Bring HDMI in. <em>Put the phone to work.</em></h1><p class="app-lead">FieldScope Pro uses compatible UVC USB capture hardware as the input path for an external camera. No capture card? The built-in phone camera, test patterns, local clips and supported network inputs still work.</p><div class="app-actions"><a class="site-button" href="#steps">Connect a camera <span aria-hidden="true">↓</span></a><a class="site-button secondary" href="faq.html">Common questions</a></div></div>
+      <figure class="hero-image"><img src="assets/screenshots/08-side-menu.png" width="2400" height="1080" alt="FieldScope Pro input menu showing phone cameras, test patterns, network inputs and USB HDMI capture setup instructions."><figcaption>Inputs menu · Captured in the app</figcaption></figure>
+    </div></section>
+    <section class="content-section" id="steps"><div class="site-wrap">
+      <div class="section-heading"><div><p class="eyebrow">Three steps</p><h2>Connect the camera feed.</h2></div><p>Start with an Android device with USB host support and a UVC-compatible capture card. Capture cards and cables are third-party hardware.</p></div>
+      <ol class="workflow-steps">
+        <li><strong>Connect HDMI</strong><span>Route the camera's HDMI output to a compatible UVC USB capture device.</span></li>
+        <li><strong>Connect USB</strong><span>Attach the capture device to the Android phone or tablet using USB host/OTG as needed.</span></li>
+        <li><strong>Grant access</strong><span>Approve the USB-device prompt and select the input when the app opens.</span></li>
+        <li><strong>Check the signal</strong><span>Review resolution, frame rate, pixel format and bandwidth in the signal information.</span></li>
+      </ol>
+      <div class="notice"><strong>Capture hardware is not included.</strong> USB HDMI capture cards differ in formats, bandwidth and driver support. Confirm the card works as UVC hardware with your device.</div>
+    </div></section>
+    <section class="content-section alternate"><div class="site-wrap">
+      <div class="section-heading"><div><p class="eyebrow">UVC capture compatibility</p><h2>Match the card to the USB link.</h2></div><p>Transfer mode and input format affect the resolution and frame rate the phone can sustain. The app reports signal details and can explain unsupported hardware.</p></div>
+      <div class="table-scroll"><table class="feature-table"><thead><tr><th>Connection type</th><th>Briefed example</th><th>Compatibility note</th></tr></thead><tbody>
+        <tr><th>USB 2 capture</th><td>MJPEG</td><td>Up to about 1080p30, depending on the capture device and link.</td></tr>
+        <tr><th>USB 3 capture</th><td>Uncompressed YUY2 or NV12</td><td>1080p60 on compatible hardware and a capable USB 3 link.</td></tr>
+        <tr><th>USB 3 capture</th><td>MJPEG</td><td>4K30 on compatible hardware; decoding load and device performance vary.</td></tr>
+        <tr><th>10-bit capture</th><td>P010</td><td>Depends on capture device, USB bandwidth, Android device and end-to-end format support.</td></tr>
+      </tbody></table></div>
+      <div class="notice"><strong>Unsupported hardware:</strong> cards that depend on a vendor-specific driver are not supported. Native Android HDMI-in ports are not directly accessible to third-party apps; a device exposing HDMI through a supported external-camera API may differ.</div>
+    </div></section>
+    <section class="content-section" id="device-support"><div class="site-wrap split-content">
+      <div><p class="eyebrow">Feature & device support</p><h2>The app should tell you what the phone can do.</h2></div>
+      <ul class="check-list">
+        <li><div><strong>Camera controls vary by lens</strong><span>Available sensor, focus, RAW and encoder capabilities differ across phone models and even between lenses on one phone.</span></div></li>
+        <li><div><strong>Controls are capability-aware</strong><span>Unsupported options are hidden or explained rather than silently shown as if every camera can use them.</span></div></li>
+        <li><div><strong>OpenGL ES 3.1</strong><span>Required for the FieldScope Pro rendering and scope pipeline.</span></div></li>
+        <li><div><strong>Power and thermals matter</strong><span>Thermal and battery conditions can trigger automatic power-saving behavior. Recording needs the app in the foreground.</span></div></li>
+      </ul>
+    </div></section>
+    <section class="content-section alternate"><div class="site-wrap"><div class="end-panel"><p class="eyebrow">Use the camera you have</p><h2>No capture dongle? There are other inputs.</h2><p>Select a built-in camera, a test pattern, a saved clip or a supported network stream. Use the same compatible scopes and monitoring tools across supported inputs.</p><div class="app-actions"><a class="site-button" href="features.html">Explore monitor tools</a><a class="site-button secondary" href="faq.html">Read known limitations</a></div></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="site-wrap footer-grid">
+    <div class="footer-about"><a href="index.html"><img src="../../assets/products/fieldscope-mark.svg" alt="">FieldScope Pro</a><p>A professional Android monitor and manual camera, built by EKIIRA LLP.</p></div>
+    <nav class="footer-links" aria-label="Features"><h2>Features</h2><ul><li><a href="features.html">Monitor tools</a></li><li><a href="camera.html">Phone camera</a></li><li><a href="setup.html">Setup and compatibility</a></li></ul></nav>
+    <nav class="footer-links" aria-label="Product information"><h2>Product info</h2><ul><li><a href="pricing.html">Free vs Pro</a></li><li><a href="privacy.html">Privacy</a></li><li><a href="faq.html">FAQ</a></li></ul></nav>
+    <nav class="footer-links" aria-label="EKIIRA"><h2>EKIIRA</h2><ul><li><a href="../../index.html">All products</a></li><li><a href="../pinner/">Pinner</a></li><li><a href="../screenplayx/">ScreenplayX</a></li></ul></nav>
+  </div><div class="site-wrap footer-legal"><p>© <span data-current-year>2026</span> EKIIRA LLP. All rights reserved.</p><p>Hardware and feature support vary by device.</p></div></footer>
+</body>
+</html>
