@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" role="img" aria-labelledby="title desc">
+  <title id="title">ScreenplayX scene and beat board illustration</title>
+  <desc id="desc">Screenplay scene excerpts connect to colour-coded story beats and storyboard frames.</desc>
+  <rect width="1000" height="600" rx="24" fill="#191a1d"/>
+  <text x="42" y="47" fill="#f0f1eb" font-family="Arial, sans-serif" font-size="15" font-weight="700">PROJECT / ACT II</text>
+  <text x="42" y="70" fill="#969990" font-family="Arial, sans-serif" font-size="11">SCENES · BEATS · STORYBOARD</text>
+  <rect x="40" y="100" width="403" height="440" rx="13" fill="#e9e6e1"/>
+  <text x="67" y="139" fill="#49464b" font-family="Arial, sans-serif" font-size="12" font-weight="700">12  INT. KITCHEN — MORNING</text>
+  <text x="67" y="177" fill="#4e4b50" font-family="Courier New, monospace" font-size="12">MARA studies the envelope.</text>
+  <text x="95" y="208" fill="#77737a" font-family="Courier New, monospace" font-size="12">A name she has not heard in years.</text>
+  <text x="67" y="253" fill="#4e4b50" font-family="Courier New, monospace" font-size="12">JONAH</text>
+  <text x="107" y="277" fill="#4e4b50" font-family="Courier New, monospace" font-size="12">You kept it.</text>
+  <text x="67" y="320" fill="#4e4b50" font-family="Courier New, monospace" font-size="12">MARA turns the envelope over.</text>
+  <text x="67" y="364" fill="#4e4b50" font-family="Courier New, monospace" font-size="12">The seal is already broken.</text>
+  <rect x="63" y="410" width="355" height="1" fill="#c7c2bd"/>
+  <text x="67" y="438" fill="#817c83" font-family="Arial, sans-serif" font-size="10">INT. · DAY · MARA, JONAH · PROP: ENVELOPE</text>
+  <path d="M466 285h62" stroke="#d6c1ff" stroke-width="2" stroke-dasharray="6 7"/>
+  <circle cx="496" cy="285" r="23" fill="#d6c1ff"/>
+  <path d="M488 285h16m-8-8v16" stroke="#19151f" stroke-width="2.2" stroke-linecap="round"/>
+  <g>
+    <rect x="553" y="100" width="400" height="192" rx="12" fill="#242329" stroke="#44404a"/>
+    <text x="575" y="130" fill="#d6c1ff" font-family="Arial, sans-serif" font-size="10" font-weight="700">BEAT BOARD</text>
+    <rect x="575" y="148" width="104" height="116" rx="7" fill="#66587d"/>
+    <rect x="693" y="148" width="104" height="116" rx="7" fill="#8b78a8"/>
+    <rect x="811" y="148" width="118" height="116" rx="7" fill="#554a66"/>
+    <circle cx="627" cy="181" r="14" fill="#d6c1ff" fill-opacity=".8"/><path d="M595 232l25-32 18 23 18-15 18 24" fill="none" stroke="#e8dcfc" stroke-width="3"/>
+    <circle cx="745" cy="181" r="14" fill="#d6c1ff" fill-opacity=".65"/><path d="M710 234l28-28 15 14 21-22 12 36" fill="none" stroke="#e8dcfc" stroke-width="3"/>
+    <circle cx="870" cy="181" r="14" fill="#d6c1ff" fill-opacity=".5"/><path d="M827 235l28-32 18 22 20-18 18 28" fill="none" stroke="#e8dcfc" stroke-width="3"/>
+  </g>
+  <g>
+    <rect x="553" y="316" width="400" height="224" rx="12" fill="#242329" stroke="#44404a"/>
+    <text x="575" y="346" fill="#d6c1ff" font-family="Arial, sans-serif" font-size="10" font-weight="700">SCENE BREAKDOWN</text>
+    <path d="M575 368h356M575 408h356M575 448h356M575 488h356" stroke="#403d45"/>
+    <text x="577" y="394" fill="#c5c0cb" font-family="Arial, sans-serif" font-size="11">CHARACTERS</text>
+    <text x="738" y="394" fill="#f0f1eb" font-family="Arial, sans-serif" font-size="11">Mara · Jonah</text>
+    <text x="577" y="434" fill="#c5c0cb" font-family="Arial, sans-serif" font-size="11">LOCATION</text>
+    <text x="738" y="434" fill="#f0f1eb" font-family="Arial, sans-serif" font-size="11">Kitchen · interior</text>
+    <text x="577" y="474" fill="#c5c0cb" font-family="Arial, sans-serif" font-size="11">PROPS</text>
+    <text x="738" y="474" fill="#f0f1eb" font-family="Arial, sans-serif" font-size="11">Envelope</text>
+    <text x="577" y="514" fill="#c5c0cb" font-family="Arial, sans-serif" font-size="11">SHOTS</text>
+    <text x="738" y="514" fill="#f0f1eb" font-family="Arial, sans-serif" font-size="11">CU · INSERT · TWO-SHOT</text>
+  </g>
+</svg>

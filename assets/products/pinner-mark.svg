@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Pinner mark</title>
+  <rect x="2" y="2" width="60" height="60" rx="18" fill="#efaa4a"/>
+  <path d="M21 13h22l-3 15 9 9v7H15v-7l9-9z" fill="#171410"/>
+  <rect x="29" y="42" width="6" height="13" rx="3" fill="#171410"/>
+</svg>
